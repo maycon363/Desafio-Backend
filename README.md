@@ -68,3 +68,12 @@ A API base é: `http://localhost:3000/order`
 | **`GET`** | `/order/list` | Lista todos os pedidos no banco de dados. | `200 OK` |
 | **`PUT`** | `/order/:orderId` | Atualiza campos de um pedido existente (usa o formato de **saída**). | `200 OK` |
 | **`DELETE`** | `/order/:orderId` | Exclui um pedido pelo seu ID. | `204 No Content` |
+
+## ✅ Prova de Funcionamento
+
+Os testes confirmam o sucesso de todas as operações CRUD e a correta persistência dos dados.
+
+Abaixo, o teste **`PUT` (Atualização)** demonstrando o sucesso (`Status 200 OK`) ao adicionar novos itens ao pedido:
+
+![Teste PUT - Status 200 OK](assets/Putresultado.png)
+
