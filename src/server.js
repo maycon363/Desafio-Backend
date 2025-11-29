@@ -25,7 +25,9 @@ app.use((req, res) => {
 });
 
 
+const API_BASE_URL = `http://localhost:${PORT}`;
+
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
-    console.log(`Endpoints disponíveis em: http://localhost:${PORT}/order/`);
+    console.log(`API de Pedidos disponível em: ${API_BASE_URL}/order/`); 
 });

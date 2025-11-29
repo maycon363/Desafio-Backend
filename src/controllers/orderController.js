@@ -38,7 +38,6 @@ exports.createOrder = async (req, res) => {
     }
 };
 
-
 exports.getOrderById = async (req, res) => {
     try {
         const order = await Order.findOne({ orderId: req.params.orderId });
